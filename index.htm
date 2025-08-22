@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>login</title>
 </head>
 <body>
     <form action="index.php" class="form">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <br>
+        <h1>LOGIN</h1>
+        <fieldset class="input">
+        <legend for="username">Username:</legend>
+        <input type="text" id="username" name="username" placeholder="issamsensi" required>
+        </fieldset>
+        <fieldset class="input">
+        <legend for="password">Password:</legend>
+        <input type="password" id="password" name="password" placeholder="***********" required>
+        </fieldset>
         <input type="submit" value="Login">
     </form>
 
